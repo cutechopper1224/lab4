@@ -1,0 +1,11 @@
+A.
+int average(int n1, float n2) : T _Z7averageif
+double average(double * n1, double & n2) : T _Z7averagePdRd
+B.
+The output is :
+1 8
+4 8
+4 8
+8 8
+
+Explanation: char,int,float,double occupies 1,4,4,8 bytes respectively.However,a pointer to a variable of any size has a fixed size,8 bytes,in 64-bit OS.
